@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Worksheet 3 Consolidation task 2</title>
+	</head>
+
+	<body>
+		<p id="randomText">I will be a random number!</p>
+		<button type="button" id="randomizerButton">Press me!</button>
+
+		<script>
+			var randomizerButton = document.getElementById("submitText");
+
+			function randomize() {
+				// document.getElementById("randomText").innerHTML = String(Math.floor(Math.random() * 11));
+				document.getElementById("randomText").innerHTML = "test";
+			}
+
+			// Add a click event listener to the button
+			randomizerButton.addEventListener("click" , randomize);
+		</script>
+	</body>
+</html>
